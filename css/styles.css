@@ -423,9 +423,9 @@ button {
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
-    opacity: 0;
+    /* opacity: 0;
     visibility: hidden;
-    pointer-events: none;
+    pointer-events: none; */
 }
 .backdrop .is-open{
     opacity: 1;
@@ -463,16 +463,16 @@ button {
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-btn:hover,
-.modal-btn:focus {
+.modal-btn-close:hover,
+.modal-btn-close:focus {
     background-color: #404bbf;
     border: none;
 }
 .modal-icon-close {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-btn:hover,
-.modal-btn:focus .modal-icon-close {
+.modal-btn-close:hover,
+.modal-btn-close:focus .modal-icon-close {
     fill: #ffffff;
 }
 .modal-text {
