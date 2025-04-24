@@ -414,6 +414,66 @@ button {
 .footer-icons:hover,.footer-icons:focus{
     background-color: #31d0aa;
 }
+.subscribe-footer {
+    margin-left: 80px;
+}
+.footer-form {
+    display: flex;
+    gap: 24px;
+}
+.subscribe-area-footer {
+    border: 1px solid #fff;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    padding-left: 16px;
+    outline: transparent;
+}
+.ubscribe-area-footer::placeholder {
+    color: #fff;
+}
+.subscribe-title-footer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    color: #fff;
+}
+.footer-btn {
+    cursor: pointer;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 24px;
+    min-width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscribe-footer-icon-btn {
+    fill: var(--white);
+    margin-left: 16px;
+}
+.footer-btn:hover,
+.footer-btn:focus {
+    background-color: #404bbf;
+
+}
 .backdrop {
     position: fixed;
     top: 0;
@@ -423,7 +483,6 @@ button {
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .modal {
     position: absolute;
     top: 50%;
@@ -439,7 +498,6 @@ button {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 24px 24px 24px;
 }
-
 .modal-btn {
     position: absolute;
     top: 24px;
@@ -456,22 +514,18 @@ button {
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .modal-btn:hover,
 .modal-btn:focus {
     background-color: #404bbf;
     border: none;
 }
-
 .modal-icon-close {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .modal-btn:hover,
 .modal-btn:focus .modal-icon-close {
     fill: #ffffff;
 }
-
 .modal-text {
     font-weight: 500;
     font-size: 16px;
@@ -481,11 +535,9 @@ button {
     color: #2E2F42;
     margin-bottom: 16px;
 }
-
 .modal-form {
     margin-bottom: 8px;
 }
-
 .modal-form-label {
     font-size: 12px;
     line-height: 1.17;
@@ -494,11 +546,9 @@ button {
     display: block;
     margin-bottom: 4px;
 }
-
 .modal-input-icon {
     position: relative;
 }
-
 .modal-input {
     width: 100%;
     height: 40px;
@@ -509,11 +559,9 @@ button {
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .modal-input:focus {
     border-color: #4D5AE5;
 }
-
 .modal-icon {
     position: absolute;
     left: 16px;
@@ -521,15 +569,12 @@ button {
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .modal-input:focus+.modal-icon {
     fill: #4D5AE5;
 }
-
 .modal-comments {
     margin-bottom: 16px;
 }
-
 .modal-comments-textarea {
     width: 100%;
     height: 120px;
@@ -545,29 +590,24 @@ button {
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .modal-comments-textarea:focus {
     border-color: #4D5AE5;
 }
-
 .modal-checkbox {
     margin-bottom: 24px;
 }
-
 .modal-checkbox-text {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
-
 .checkbox-label {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
-
 .checkbox-custom {
     width: 16px;
     height: 16px;
@@ -579,17 +619,14 @@ button {
     justify-content: center;
     fill: transparent;
 }
-
 .modal-checkbox-input:checked+.checkbox-label>.checkbox-custom {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
 }
-
 .modal-checkbox-privat-policy {
     color: #4d5ae5;
 }
-
 .modal-form-btn {
     display: block;
     margin: 0 auto;
