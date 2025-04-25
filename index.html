@@ -46,7 +46,7 @@
                 <h1 class="firstsection-h">
                     Effective Solutions for Your Business
                 </h1>
-                <button type="button" class="firstsection-button">Order Service</button>
+                <button type="button" class="firstsection-button" data-modal-open>Order Service</button>
             </div>
         </section>
         <section class="secondsection">
@@ -441,9 +441,9 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop" data-modal>
         <div class="modal">
-            <button type="button" class="modal-btn">
+            <button type="button" class="modal-btn" data-modal-close>
                 <svg height="8" width="8" class="modal-icon-close">
                     <use href="./images/icons.svg#close"></use>
                 </svg>
@@ -496,7 +496,7 @@
                     <label for="user-privacy" class="checkbox-label">
                         <span class="checkbox-custom">
                             <svg width="10" height="8" class="checkbox-icon">
-                                <use href="./images/icons.svg#checkbox"></use>
+                                <use href="./images/icons.svg#icon-Vector"></use>
                             </svg>
                         </span>
                         I accept the terms and conditions of the
@@ -507,5 +507,7 @@
             </form>
         </div>
     </div>
+
+    <script src="./js/modal.js"></script>
 </body>
 </html>
